@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.EmailDetailsController">
+   <children>
+      <WebView fx:id="webView" layoutX="3.0" layoutY="75.0" prefHeight="279.0" prefWidth="594.0" AnchorPane.bottomAnchor="46.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="75.0" />
+      <Label fx:id="subjectLabel" layoutX="29.0" layoutY="14.0" text="Subject" />
+      <Label fx:id="senderLabel" layoutX="29.0" layoutY="48.0" text="Sender" />
+   </children>
+</AnchorPane>
